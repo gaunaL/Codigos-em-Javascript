@@ -1,0 +1,22 @@
+//Declaração de função com retorno
+function soma(a, b){
+    return a + b;
+}
+//Variavel usada desde o ECMAScript, tendo a var e const além da let
+let x = 5;
+let y = 6;
+// Forma mais usada para se declarar o Array, sempre-se usa const e colchetes
+const vetor = ["Lua", "Sol", "Amor","Verão"];
+// Forma alternativa de declarar o Array
+const cars = new Array("Saab", "Volvo", "BMW");
+
+console.log(soma(x,y));
+console.log(vetor);
+
+// Declaração de objetos se coloca com chaves e separa-se com virgula
+//Costuma ser usada em requisições JSON
+const person = {
+  firstName: "Luis",
+  lastName: "Gauna",
+  age: 50
+};
